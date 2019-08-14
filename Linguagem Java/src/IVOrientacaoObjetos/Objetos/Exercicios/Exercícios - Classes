@@ -1,0 +1,138 @@
+1. Como são chamados, em orientação a objetos, características e comportamentos de uma classe?
+a. Argumentos e parâmetros
+b. Atributos e atribuições
+c. Atributos e métodos
+
+Resposta: c
+Atributos são características de uma classe. Métodos são comportamentos de uma classe.
+--------------------------------------
+
+2. Sobre orientação a objetos, é possível afirmar, exceto:
+a. Uma classe é a definição de um tipo, definindo atributos e métodos.
+b. Um objeto é a instância de uma classe onde valores podem ser atribuídos para seus atributos.
+c. Para criar uma instância, é obrigatório que uma classe tenha atributos.
+d. new é uma palavra reservada usada para criar instâncias de uma classe.
+O que seginifica que não pode usar como uma variável ou nome de classe.
+
+Resposta: c
+Não é necessário que uma classe tenha atributos para ser instanciada.
+Uma classe pode ser composta por somente seu nome, sem métodos ou atributos.
+--------------------------------------
+
+3. Considere o código abaixo:
+public class Teste {
+    public static void main(String[] args) {
+        Pessoa p1 = new Pessoa();
+        p1.anoNascimento = 2000;
+        Pessoa p2 = new Pessoa();
+        p1.anoNascimento += 10;
+        System.out.println(p1.anoNascimento);
+    }
+}
+
+Qual o resultado mostrado?
+a. 2000
+b. 0
+c. 10
+d. 2010
+
+Resposta: d
+A instância p1 é criada, atribuída um valor e modificada. A instância p2 não é manipulada após criada.
+--------------------------------------
+
+4. Assinale a alternativa incorreta:
+
+a. Um método que não possui retorno deve ser declarado como void.
+b. É possível que um método não receba nenhum parâmetro.
+c. Métodos não possuem muita utilidade, são somente recursos da linguagem.
+
+Resposta: c
+Métodos possuem muita utilidade! Somente reuso de código e centralização de responsabilidade já são
+dois benefícios fortíssimos para que sejam usados.
+--------------------------------------
+
+5. Qual código abaixo demonstra a chamada correta a um método usando a instância de uma classe?
+
+a. new Teste().teste();
+b. Teste().imprimeValor();
+c. Teste->teste();
+d. New Teste().teste();
+
+Resposta: a
+--------------------------------------
+
+6. Qual o problema com o código apresentado abaixo?
+public void bonus(float salario) {
+    if (salario > 3000) {
+        return 800;
+    }
+    return 400;
+}
+
+a. Está faltando else.
+b. O método não deve ser public.
+c. O retorno não condiz com a assinatura do método.
+
+Resposta: c
+O método está definido como void, mas está tentando retornar um valor.
+--------------------------------------
+
+7. Qual das alternativas abaixo é verdadeira?
+
+a. Só é possível ter um construtor em uma classe.
+b. Construtores não podem receber parâmetros.
+c. Construtores não podem implementar código dentro deles.
+d. Construtores são usados para inicialização de variáveis.
+
+Resposta: d
+--------------------------------------
+
+8. Considere as classes abaixo onde existe um problema em tempo de execução:
+public class Endereco {
+    String rua;
+    String bairro;
+    String cidade;
+}
+
+public class Pessoa {
+    String nome;
+    String cpf;
+    int idade;
+    Endereco endereco;
+}
+
+public class Programa {
+    public static void main(String[] args) {
+        Pessoa pessoa = new Pessoa();
+        pessoa.nome = "Fulano";
+        pessoa.endereco.bairro = "Bairro xpto";
+    }
+}
+
+Qual o problema que está acontecendo?
+
+a. A estrutura da aplicação está incorreta, não pode haver uma classe dentro de outra.
+b. Está sendo feito o acesso a um objeto que não foi inicializado, portanto NullPointerException.
+c. Todos os atributos de pessoa precisa sem preenchidos.
+
+Resposta: b
+--------------------------------------
+
+9. Quais os benefícios de se criar uma classe com atributos privados?
+
+a. É possível alterar o código interno sem alterar o funcionamento externo.
+b. Um atributo privado pode ser acessado de fora da classe, assim o desenvolvimento se torna mais fácil.
+c. Ao se usar atributos privados, é obrigatório escrever getter e setter.
+
+Resposta: a
+--------------------------------------
+
+10. Assinale a alternativa correta:
+
+a. Só é possível ter um construtor por classe.
+b. Todos os atributos de um classe devem estar no construtor.
+c. O construtor padrão de uma classe deixa de existir a partir do momento que um construtor é declarado.
+d. Uma vez que existe construtor padrão, não há utilidade alguma em difiní-lo explicitamente.
+
+Resposta: c
+--------------------------------------

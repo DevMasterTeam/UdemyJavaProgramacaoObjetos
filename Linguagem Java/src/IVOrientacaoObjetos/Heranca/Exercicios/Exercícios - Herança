@@ -1,0 +1,61 @@
+1. class Gerente extends Pessoa
+Ao extender a classe Pessoa, a classe Gerente:
+
+a. Herda todas as características da Pessoa, inclusive privadas
+b. Herda todo o coportamento da classe Pessoa
+c. É criada uma nova instância de Gerente
+
+Resposta: b
+Todos os métodos e atributos públicos estarão disponíveis na classe Gerente.
+--------------------------------------
+
+2. Qual a sintaxe para extender uma classe em Java?
+
+a. class a : b
+b. class a inherits b
+c. class a -> b
+d. class a extends b
+e. Todas acima
+
+Resposta: d
+--------------------------------------
+
+3. Na orientação a objetos, o que quer dizer polimorfismo?
+
+a. Classes mais genéricas possam referenciar classes mais específicas.
+b. Polimorfismo diz respeito ao encapsulamento de dados.
+c. Polimorfismo é somente um conceito e não pode ser aplicado na prática.
+d. Se refere a capacidade de chamar métodos da classe pai usando a palavra super.
+
+Resposta: a
+--------------------------------------
+
+4. Podemos afirmar sobre classes abstratas e interfaces, exceto:
+
+a. É possível estender somente uma classe abstrata, mas várias interfaces.
+b. Classes abstratas podem ter métodos com implementação.
+c. Se ao menos um método de uma classe for abstrato, a classe será abstrata.
+d. Classes abstratas e interfaces podem ser instanciadas.
+
+Resposta: d
+Nenhuma das duas podem ser instanciadas.
+--------------------------------------
+
+5. Sobre interface:
+Ao implementar uma interface, uma classe assina um contrato de como será seu comportamento.
+Isso permite que os métodos definidos na interface possam ser chamados com segurança nas classes que a implementam.
+
+a. Verdadeiro
+b. Falso
+
+Resposta: a
+--------------------------------------
+
+6. Sobre classe abstrata, é possível afirmar, exceto:
+
+a. Podem ter atributos.
+b. Podem ter métodos implementados.
+c. Podem ter métodos abstratos.
+d. Podem ser instanciadas.
+
+Resposta: d

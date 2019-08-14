@@ -1,0 +1,28 @@
+1. Qual ordem abaixo representa a menor visibilidade para a maior?
+
+a. private < public < protected
+b. public < protected < private
+c. private < protected< public
+
+Resposta: c
+--------------------------------------
+
+2. Qual a diferença entre private e protected?
+
+a. Nenhuma.
+b. Ambas são vistas dentro da classe, mas protect fica disponível para qualquer classe, filha ou não.
+c. private é acessível somente dentro da classe onde está declarada, protected é acessível dentro da classe declara e nas classes filhas.
+
+Resposta: c
+--------------------------------------
+
+3. Ao se criar um método ou variável estática, estes se tornam parte da classe e não mais da instância da classe.
+Por esse motivo, métodos estáticos podem ser chamados sem criar uma instância da classe e variáveis estáticas
+não são dependentes de instâncias.
+Esta afirmação é:
+
+a. Verdadeira
+b. Falsa
+
+Resposta: a
+--------------------------------------
