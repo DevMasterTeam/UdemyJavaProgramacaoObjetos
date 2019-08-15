@@ -1,7 +1,7 @@
 ﻿# Java - Conceitos de programação e orientação a objetos
 
 Este repositório é referente ao curso da [DevMasterTeam](http://www.devmasterteam.com) disponível na plataforma Udemy.
-- [Java - Conceitos de programação e orientação a objetos](https://www.udemy.com/)
+- [Java - Conceitos de programação e orientação a objetos](https://www.udemy.com/course/java-programacao-completo)
 
 ### Sobre
 Este curso foi elaborado desde os conceitos de conhecimentos de informática e lógica de programação necessários para então entrar em detalhes técnicos e implementação de código. Desde o mais básico em Java, até orientação a objetos e aplicação dos conceitos com a construção de um projeto.
